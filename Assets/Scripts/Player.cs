@@ -21,7 +21,14 @@ public class Player : MonoBehaviour
     }
     private void Spin(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.started)
+        {
+            _rb.AddForce(Vector3.up * 200f);
+            _transform.localRotation *= Quaternion.Euler(0f, 0f, 90f);
+        }
+        if (context.performed)_transform.localRotation *= Quaternion.Euler(0f, 0f, -90f);
+       
+        
     }
     private void CrouchStarted()
     {

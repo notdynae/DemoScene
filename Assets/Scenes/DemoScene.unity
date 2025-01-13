@@ -277,7 +277,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 757561783}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 19.357, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -559,8 +559,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 330585546}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &757561784
@@ -1214,7 +1213,7 @@ GameObject:
   - component: {fileID: 1698353766}
   - component: {fileID: 1698353769}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: StateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,5 +1392,6 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1483708287}
   - {fileID: 757561783}
+  - {fileID: 330585546}
   - {fileID: 1222038934}
   - {fileID: 1698353768}
