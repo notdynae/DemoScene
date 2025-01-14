@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class InputActions : MonoBehaviour
 {
-    // static class which holds the various actions to be called
+    // class holding all the input actions to be called
     public static Action<InputAction.CallbackContext> OnJump;
     public static Action<InputAction.CallbackContext> OnInteract;
     public static Action OnCrouchStarted;
